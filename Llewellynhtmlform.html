@@ -1,0 +1,82 @@
+<html>
+<head>
+<title> Llewellyn HTML Form</title>
+</head>
+<fieldset>
+<form name="myFirstForm" method="post" action="thankyou.html">
+<legend class= "legend"> Personal Information </legend> </br>
+<div style = "background-color:lightblue" >
+	<label for="First Name"> First Name </label>
+	&nbsp &nbsp &nbsp <input type = "text" placeholder = "Fist Name"> <br>
+	<label for="Middle Initial"> Middle Initial </label>
+	&nbsp <input type = "text" placeholder = "Middle Initial"> </br>
+	<label for="Last Name"> Last Name </label>
+	&nbsp &nbsp &nbsp <input type = "text" placeholder = "Last Name">
+</div>
+</br>
+<div style = "background-color:lightyellow" >
+	<label for="Birthday">Birthday </label></br>
+	<input type="date" value="">
+</div>
+</br>
+<div style = "background-color:lightpink" >
+	<label for="Gender"> I identify my gender as: </label></br>
+	<input type= "radio" name = "Gender"> Female
+	<input type= "radio" name = "Gender"> Male
+	<input type= "radio" name = "Gender"> Non-Binary
+	<input type= "radio" name = "Gender"> TransFemale
+	<input type= "radio" name = "Gender"> TransMale
+	<input type= "radio" name = "Gender"> Something Else
+	<input type= "radio" name = "Gender"> Decline to Answer
+
+</div>
+</br>
+<div>
+	<label for="Race:"> I identify my ethnicity as: (*select all that apply) </label></br>
+	<input type= "checkbox" name = "Race"> American Native/Alaska Native
+	<input type= "checkbox" name = "Race"> Asian
+	<input type= "checkbox" name = "Race"> Black and/or African American
+	<input type= "checkbox" name = "Race"> Latinx
+	<input type= "checkbox" name = "Race"> Naitive Hawaiian/Pacific Islander
+	<input type= "checkbox" name = "Race"> White
+	<input type= "checkbox" name = "Race"> Something Else
+	<input type= "checkbox" name = "Race"> Decline to Answer
+
+</div>
+</br>
+<div>
+	<label for="IEP Status"> In high school, I had: </label></br>
+	<input type= "radio" name = "IEP Status"> an IEP
+	<input type= "radio" name = "IEP Status"> a 504 plan
+	<input type= "radio" name = "IEP"> N/A
+</div>
+</br>
+<div>
+	<label for="Contact Method"> I may be contacted by: </label></br>
+	<select class="SelectOptions">
+	<option value="Contact">Contact Method</option>
+	<option value="Contact">Email</option>
+	<option value="Contact">Phone Call</option>
+	<option value="Contact">Text Message</option>
+	<option value="Contact">Please Do Not Contact Me</option>
+	</select>
+</div>
+</br>
+<div>
+	<label for="Email"> Email</label></br>
+	<input type= "email" placeholder = "Your Email Address">
+	
+</div>
+</br>
+<div>
+	<label for="Phone Number"> Phone Number </label></br>
+	<input type= "tel" placeholder = "Phone Number">
+</div>
+</br>
+<div>
+
+	<label for="Submit"> Submit</label></br>
+	<input type= "submit" value = "Submit">
+</div>
+</fieldset>
+</html>
