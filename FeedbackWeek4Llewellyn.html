@@ -1,0 +1,390 @@
+
+<html> 
+
+  <head>  
+  
+   <title> figure1 </title> 
+   
+      <script type="text/javascript">
+          <!--
+          // From validation code will come here.
+         function validate() {
+              
+           if(document.myform.CaseID.value=="") {
+           alert("Please enter the Case ID!");
+           document.myform.CaseID.focus() ;
+           return false;
+           }
+             
+           if( document.myform.Subject.value=="") {
+           alert("Please enter the Subject!");
+           document.myform.Subject.focus();
+           return false;
+           }
+             
+           if(document.myform.Comment.value=="") {
+           alert("Please enter a Comment!");
+           document.myform.Comment.focus();
+           return false;
+           }
+        return (true)
+           }
+          //-->
+   
+   </script>  
+
+  <style> 
+       body { 
+
+         
+        background-color: #CB4335; 
+
+        margin: 5px 100px 200px 200px;      
+      
+      }
+      
+           header { 
+        
+                background-color: #FDFEFE; 
+            }     
+                                
+             #sidemenu {
+                 width : 40%;
+                 float: left;
+                 background-color: #922B21
+               
+
+            }    
+             #content {
+                 background-color: #922B21;
+           }
+      
+             footer {
+                 
+                 background-color: white;
+          
+                 text-decoration: none;
+                 
+      }
+      
+              fieldset {
+                  background-color: beige;
+                  margin-right: 50px;
+                  margin-left: 50px
+                  
+      }
+      
+  </style> 
+
+  </head>  
+
+<body> 
+
+<form action="thankyou.html" name = "myform" onsubmit = "return(validate());">
+
+  <div class="container"> 
+
+ <!--3 main sections --> 
+
+      <div class="header-container"> 
+
+ 
+
+  <header> 
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRITp7SpxBMmh03CMxxOToWKG2vyAbK4hsrELTezQZfgp28M1sdsQ" width="300" height="55"> 
+          </header> 
+          
+
+  </div> 
+
+  <div class="main-container"> 
+      <div id="content">
+          <!-- Content Area-->
+          
+  
+               
+<aside id="sidemenu"> 
+          <ul style="list-style-image: url(arrow.gif);">
+              <li> <a href="#"> <font color="orange">  Payroll Information </font> </a> </li>
+              <li> <a href="#"> <font color="orange">  Performance Appraisal </font> </a> </li>
+              <li> <a href="#"> <font color="orange">  TimeSheet </font> </a> </li>
+              <li> <a href="#"> <font color="orange">  Leave Management </font> </a> </li>
+              <li> <a href="#"> <font color="orange">  Health Benefits </font> </a> </li>
+              <li> <a href="#"> <font color="orange">  Organizational Chart </font> </a> </li>
+              <li> <a href="#"> <font color="orange">  Access Management </font> </a> </li>
+              <li> <a href="#"> <font color="orange">  Career Development </font> </a> </li>
+              <li> <a href="#"> <font color="orange">  My Profile </font> </a> </li>
+              <li> <a href="#"> <font color="orange">  Expense Reinbursement </font> </a> </li>
+              <li> <a href="#"> <font color="orange">  Retirement Planning </font> </a> </li>
+              <li> <a href="#"> <font color="orange">  Ticket Management </font> </a> </li>
+              <li> <a href="#"> <font color="orange">  Documents </font> </a> </li>
+              <li> <a href="#"> <font color="orange">  Feedback </font> </a> </li>
+          </ul>
+          </aside>
+    
+<form name="myform" method="post" action="thankyou.html">  
+
+  
+
+ 
+
+  
+
+ 
+<fieldset>  
+    
+  
+<div>
+<section>
+    <h3> <background-color:#FDF2E9> Please complete following form </h3>
+      </section>     </div>  
+<table>  
+
+  
+
+<col width="20%">  
+
+  
+
+<col width="20%">  
+
+  
+
+<col width="20%">  
+
+  
+
+<col width="20%">  
+
+  
+
+<col width="20%">  
+
+  
+
+
+
+   
+
+  
+
+<style>  
+
+  
+
+table, th, td {  
+
+  
+
+      
+
+  
+
+    padding : 10px;  
+
+  
+
+    text-align: left;  
+
+  
+
+    background-color: #FFF0F5  
+
+  
+
+}  
+
+ 
+  
+
+</style>  
+
+    <tr><td><legend class= "legend"> <font color="#CB4335"> FEEDBACK </font> </legend>  </td></tr>
+
+<tr>  
+
+  
+
+<td>  
+
+  
+
+<label for="Case"> CaseID: </label>  
+
+  
+
+<input type = "text" name = "CaseID" placeholder = 34564  /> <br>  
+
+  
+
+</td>  
+  
+</tr>  
+
+
+<tr>  
+
+  
+
+<td>  
+
+  
+
+<label for="Subject"> Subject:<font color="red"> * </font>  </label>   
+
+  
+
+   
+
+  
+
+<input type = "text" name = "Subject"> <br>  
+
+  
+
+</td>  
+
+  
+
+   
+
+  
+
+</tr>  
+
+  
+
+   
+
+  
+
+   
+
+  
+
+<tr>  
+
+  
+
+<td>  
+
+  
+
+<label for="Comment"> Comment:<font color="red"> * </font> </label>   
+
+  
+
+
+
+<input type = "text" cols="20" rows="4" name = "Comment">
+
+
+  
+
+</textarea>  
+
+  
+
+<br>  
+
+  
+
+</td>  
+
+  
+
+   
+
+  
+
+   
+
+  
+
+</tr>  
+
+  
+
+   
+
+  
+
+
+
+  
+
+      
+
+  
+
+<br>  
+
+  
+
+
+
+  
+
+<tr> 
+
+<td>   
+
+  
+
+   
+
+  
+
+     
+
+  
+
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   <input type= "submit" value = "Submit">  
+
+  
+
+</tr> 
+
+</td>  
+
+  
+
+<br> 
+
+  
+
+ 
+
+  
+
+</div>
+
+  
+
+   
+
+  
+ 
+</table>  
+    
+    </section>
+      </fieldset>
+    <br>
+    <br>
+    
+
+<div class="footer-container">
+                            <footer><div> <background-color: white> <center> <font color=black> Copyright (c) UMD.  All Right Reseserved. </font> </center> </div> </footer> 
+ <a href = "#">
+    </a>
+   
+
+                           
+</form>
+  
+
+</html>  
+
+  
+
+</html> 
