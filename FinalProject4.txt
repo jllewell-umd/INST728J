@@ -1,0 +1,41 @@
+
+  <head>  
+  
+   <title> Who are we? </title> 
+   
+    
+
+  
+  </head>  
+
+<body bgcolor = "lighpink"> 
+
+<form>
+
+<legend class= "legend">  <center> <font size = The team! </font> <font size = "3"> (click on the link for more information)</font></center> </legend>  </br>
+<div>
+
+  <div class="main-container"> 
+      <div id="content">
+          <!-- Content Area-->
+          
+  
+               
+
+          <ul style="list-style-image: url(arrow.gif);">
+              <li> <img src= "arrow.gif">  <font size="4">  Me </font> </a> </li> </br> </br>
+              <li> <a href="#">  <font size="4">  To ensure there are equitable outcomes after high school for students with different racial and ethnic identities from the same school. </font>  </a> </li></br> </br>
+              <li> <a href="#">  <font size="4">  To better understand a broader range of student experiences transitioning out of high school. </font>  </a> </li>
+              
+          </ul>
+    <div class="footer-container">
+                            <footer><div>  <center> <img src= "arrow.gif" style="width:400px;height:200px;"> </center> </div> </footer> 
+ 
+    
+          
+    
+
+
+      </form> 
+
+</html> 
